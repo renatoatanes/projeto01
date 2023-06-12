@@ -3,9 +3,56 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Pagina inicial</title>
+    <link rel="stylesheet" href="../css/style.css">
 </head>
 <body>
+   
+    <header>
+        <h1>Bem vindo Usuario!</h1>
+    </header>
+
+    
+     <section class="conteudo">
+        <div>
+
+        <form action="./index.html" method="get" onsubmit="return true">
+        
+            <fieldset>
+          <h2>Login</h2>
+            <div>
+                <label for="idName">Nome</label>
+                <input type="text" name="txtNm" id="idName" placeholder="Nome" value=""  minlength="4" maxlength="10">
+            </div>
+
+            <div>
+                <label for="idEmail">Email</label>
+                <input type="text" name="txtEmail" id="idEmail" placeholder="Email" value="">
+            </div>
+          
+            
+            <div>
+                <label for="idSenha">Senha</label>
+                <input type="password" name="txtSenha" id="idSenha" placeholder="Senha" value="" minlength="4" maxlength="10" >
+            </div>
+
+            
+            <div>
+                <label for="idConfirmSenha">Confirmação Senha</label>
+                <input type="password" name="txtEmail" id="idConfirmSenha" placeholder="Corfirme a senha" value="" minlength="4" maxlength="10" >
+            </div>
+
+
+
+        </fieldset>
+        
+        </form>
+        </div>
+
+     </section>
+     
+
+
     
 </body>
 </html>
