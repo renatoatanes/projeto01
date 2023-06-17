@@ -1,5 +1,5 @@
 body {
-   background-image: url(../img/);
+   background-image: url(../img/fundo.jpg);
 }
 
 *{
@@ -14,10 +14,28 @@ body {
     width: 70%;
     min-height: 50vh;
     justify-content: center;
+    color: darkolivegreen;
 
 }
 
 .rodape img {
     width: 80px;
 
+}
+
+.cabecalho h1 {
+    color: darkolivegreen;
+}
+
+.rodape {
+    
+    justify-content: center;
+    align-items: center;
+    color: darkolivegreen;
+    align-items: center;
+    }
+
+#Sub {
+    color: darkolivegreen;
+    text-align: center;
 }
