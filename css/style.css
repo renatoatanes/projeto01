@@ -15,7 +15,9 @@ body {
     min-height: 50vh;
     justify-content: center;
 
+}
 
-
-
+.rodape img {
+    width: 80px;
+    
 }
