@@ -1,5 +1,5 @@
 body {
-   background-color:rgb(130, 141, 163);
+   background-image: url(../img/);
 }
 
 *{
@@ -19,5 +19,5 @@ body {
 
 .rodape img {
     width: 80px;
-    
+
 }
