@@ -28,11 +28,9 @@ body {
 }
 
 .rodape {
-    
-    justify-content: center;
-    align-items: center;
+   
     color: darkolivegreen;
-    align-items: center;
+
     }
 
 #Sub {
@@ -42,4 +40,10 @@ body {
 
 h1 {
     color: darkolivegreen;
+}
+
+#redes {
+ background-color:grey;
+ height: max-content;
+ width: 70%;
 }
