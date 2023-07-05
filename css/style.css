@@ -1,5 +1,5 @@
 body {
-   background-image: url(../img/fundo.jpg);
+   background-image: url(../img/fundo.png);
 }
 
 *{
@@ -18,20 +18,11 @@ body {
 
 }
 
-.rodape img {
-    width: 80px;
-
-}
 
 .cabecalho h1 {
     color: darkolivegreen;
 }
 
-.rodape {
-   
-    color: darkolivegreen;
-
-    }
 
 #Sub {
     color: darkolivegreen;
@@ -42,8 +33,13 @@ h1 {
     color: darkolivegreen;
 }
 
-#redes {
- background-color:grey;
- height: max-content;
- width: 70%;
+.rodape {
+    background-color: antiquewhite;
+    background-position: center;
+    height: 0px;
+}
+
+.rodape img {
+    width: 70px;
+   flex: auto;
 }
