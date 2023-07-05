@@ -1,5 +1,6 @@
 body {
    background-image: url(../img/fundo.png);
+   
 }
 
 *{
@@ -14,23 +15,18 @@ body {
     width: 70%;
     min-height: 50vh;
     justify-content: center;
-    color: darkolivegreen;
+    color: rgb(96, 6, 101);
 
 }
 
 
 .cabecalho h1 {
-    color: darkolivegreen;
+    color: rgb(242, 242, 242);
 }
 
-
-#Sub {
-    color: darkolivegreen;
-    text-align: center;
-}
 
 h1 {
-    color: darkolivegreen;
+    color: rgb(236, 236, 236);
 }
 
 .rodape {
