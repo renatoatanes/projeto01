@@ -1,5 +1,8 @@
 body {
    background-image: url(../img/fundo.png);
+   background-repeat: no-repeat;
+   background-size: cover;
+   background-position: center center;
    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
    
 }
