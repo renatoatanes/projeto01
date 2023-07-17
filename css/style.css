@@ -1,5 +1,6 @@
 body {
    background-image: url(../img/fundo.png);
+   font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
    
 }
 
@@ -15,7 +16,7 @@ body {
     width: 70%;
     min-height: 50vh;
     justify-content: center;
-    color: rgb(96, 6, 101);
+    color: blanchedalmond;
 
 }
 
@@ -31,11 +32,10 @@ h1 {
 
 .rodape {
     background-color: antiquewhite;
-    background-position: center;
     height: 0px;
 }
 
-.rodape img {
+.rodape img { 
     width: 70px;
-   flex: auto;
+    align-items: flex-end;
 }
