@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Pagina inicial</title>
     <link rel="stylesheet" href="../css/style.css">
+    <script src="../js/script.js" defer></script>
  </head>
  <body>
 
@@ -21,31 +22,31 @@
  <section class="conteudo">
  <div>
 
- <form action="./index.html" method="get" onsubmit="return true"> 
+ <form id="form" action="./index.html" method="get" onsubmit="return true">
  <fieldset>
 
  <h2>Login</h2>
 
             <div>
-                <label for="idName">Nome</label>
-                <input type="text" name="txtNm" id="idName" placeholder="Nome" value=""  minlength="4" maxlength="10">
+                <label for="idname">Nome</label>
+                <input type="text" id="name" placeholder="Nome"  minlength="4" maxlength="10">
             </div>
 
             <div>
-                <label for="idEmail">Email</label>
-                <input type="text" name="txtEmail" id="idEmail" placeholder="Email" value="">
+                <label for="idemail">Email</label>
+                <input type="email" id="email" placeholder="Email">
             </div>
           
             
             <div>
-                <label for="idSenha">Senha</label>
-                <input type="password" name="txtSenha" id="idSenha" placeholder="Senha" value="" minlength="4" maxlength="10" >
+                <label for="idsenha">Senha</label>
+                <input type="password" id="password" placeholder="Senha" minlength="4" maxlength="10" >
             </div>
 
             
             <div>
-                <label for="idConfirmSenha">Confirmação Senha</label>
-                <input type="password" name="txtEmail" id="idConfirmSenha" placeholder="Corfirme a senha" value="" minlength="4" maxlength="10" >
+                <label for="idconfirmSenha">Confirmação Senha</label>
+                <input type="password"  id="confirmSenha" placeholder="Corfirme a senha" minlength="4" maxlength="10" >
             </div>
 
             <div>
