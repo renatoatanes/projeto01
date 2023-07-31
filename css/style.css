@@ -1,0 +1,44 @@
+body {
+   background-image: url(../img/fundo.png);
+   background-repeat: no-repeat;
+   background-size: cover;
+   background-position: center center;
+   font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+   
+}
+
+*{
+    margin: 0%;
+    padding: 0%;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.conteudo {
+    display: flex;
+    align-items: center;
+    width: 70%;
+    min-height: 50vh;
+    justify-content: center;
+    color: blanchedalmond;
+
+}
+
+
+.cabecalho h1 {
+    color: rgb(242, 242, 242);
+}
+
+
+h1 {
+    color: rgb(236, 236, 236);
+}
+
+.rodape {
+    background-color: antiquewhite;
+    height: 0px;
+}
+
+.rodape img { 
+    width: 70px;
+    align-items: flex-end;
+}
